@@ -11,5 +11,4 @@ Rails.application.routes.draw do
   end
   root 'pitches#index'
   post '/pitch_rankings' => 'pitch_rankings#create_ranking'
-  # post '/create_groups' => 'final_groups#create_groups'
 end
